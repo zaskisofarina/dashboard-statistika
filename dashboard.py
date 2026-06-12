@@ -10,7 +10,7 @@ st.markdown("Dashboard ini menampilkan analisis interaktif mengenai pola pengelu
 @st.cache_data
 def load_data():
     # Pastikan file CSV kamu sudah di-upload ke Colab!
-    df = pd.read_csv('Course Evaluation (Responses) - Form Responses 1.csv')
+    df = pd.read_csv('data.csv')
     col_mapping = {
         'Status Tempat Tinggal': 'Tempat_Tinggal',
         'Berapa rata-rata uang saku/pemasukan Anda per bulan?': 'Uang_Saku',
